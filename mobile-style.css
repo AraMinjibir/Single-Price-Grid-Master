@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    padding:2vw 0vw;
+    background-color:rgb(250, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 37.5vw;
+    height: 145vh;
+    padding: 3vw 2vw;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phase1 {
+    width: 32vw;
+    height: 50vh;
+    padding: 3vw;
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    background-color:hsl(0, 0%, 100%);
+
+}
+.phase2 {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.child1 {
+    width: 32vw;
+    padding: 2vw;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 62%, 43%);
+}
+.child2 {
+    width: 32vw;
+    padding: 2vw;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 57%, 46%);
+    border-bottom-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+}
+.phse1 {
+    margin-bottom: 2vw;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+.phse2 {
+    margin-bottom: 1vw;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+}
+.phse3 {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(218, 22%, 67%);
+}
+.chld11 {
+    font-weight: 400;
+    font-size: 15px;
+}
+.chld,
+.chld2 {
+    margin-bottom:1.5vw;
+}
+.chld1 {
+    margin-bottom: 1vw;
+}
+span {
+    font-size: 15px;
+    font-weight: 400;
+}
+button {
+    margin-top: 2.5vw;
+    width: 20vw;
+    padding: 0.5vw;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 0.2vw;
+}
+a {
+    text-decoration: none;
+    
+}
